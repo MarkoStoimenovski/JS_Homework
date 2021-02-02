@@ -5,23 +5,24 @@
 
 
 
-// let namesArray = ["Bill", "Ana", "Josephine", "Elena"];
-// let namesLengthArray = [];
+let namesArray = ["Bill", "Ana", "Josephine", "Elena"];
+let namesLengthArray = [];
 
-// function mapToArrayElementsLength(arr) {
-//     let i;
-//     for (i = 0; i < arr.length; i++ ) {
-//         let j; 
-//         for (j = 0; j < arr[i].length; j ++ ) {
+function mapToArrayElementsLength(arr) {
+    let i;
+    for (i = 0; i < arr.length; i++ ) {
+        let j; 
+        for (j = 0; j < arr[i].length; j ++ ) {
 
-//         }
-//         namesLengthArray.push(j); 
-//     }
+        }
+        namesLengthArray.push(j); 
+    }
     
-// }
+}
 
-// mapToArrayElementsLength(namesArray);
-// console.log(namesLengthArray);
+mapToArrayElementsLength(namesArray);
+console.log(namesLengthArray);
+
 
 
 
